@@ -17,21 +17,12 @@ int main(){
 
   // Proses 
   max = a1;
-  if (a2 > max){
-    max = a2;
-  }
-  if (a3 > max){
-    max = a3;
-  }
+  if (a2 > max)max = a2;
+  if (a3 > max)max = a3;
 
   min = a1;
-  if (a2 < min){
-    min = a2;
-  }
-  if (a3 < min){
-    min = a3;
-  }
-
+  if (a2 < min)min = a2;
+  if (a3 < min)min = a3;
 
   // Output
   cout << "Max : " << max << endl;
